@@ -1,0 +1,21 @@
+There are three things that will need to be manually configured.
+
+1. config.xml
+
+This is the distributor configuration file that can be exported from the Admin Console.
+The sample store will use this file to communicate with the proper distributor and to properly form download links.
+
+2. admin information in requestmaker.php
+
+You will need to enter two pieces of information here. Where it says "ENTER YOUR ADMIN CONSOLE PASSWORD HERE", replace the string
+below with the password you use to log in to the Admin Console.
+Where it says "ENTER THE URL OF YOUR ADMIN SERVICE HERE", replace the URL with your admin URL. This string should end with "admin/".
+
+3. book of the month
+
+In catalog.php, where it says "ENTER YOUR BOOK OF THE MONTH RESOURCE ID HERE", enter the resource ID of the book that you want
+to put in a special display banner. This is optional and if you replace the resource ID below with a blank string, the banner
+will simply be omitted from the web page.
+
+You will also need to provide a truncated description for this book. Where it says "ENTER YOUR BOOK OF THE MONTH TRUNCATED DESCRIPTION HERE",
+replace the text between the <p></p> tags with a partial description of your book. It should not be longer than the string already there.
