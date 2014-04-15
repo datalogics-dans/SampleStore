@@ -1,0 +1,171 @@
+﻿<resourceItemList xmlns="http://ns.adobe.com/adept">
+  <resourceItemInfo>
+    <resource>db60f570</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/AdventuresOfSherlockHolmes.epub</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">The Adventures of Sherlock Holmes</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sir Conan Doyle</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Gutenberg Foundation</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-GB</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>db60f570</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:72a69a9d-4c74-4104-8bb2-55003944ce0b</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/alice.epub</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Alice's Adventures in Wonderland</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Lewis Carroll</dc:creator>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-GB</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:72a69a9d-4c74-4104-8bb2-55003944ce0b</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:97a80269-3afb-40d3-8cc7-5b91a99a78c0</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/asterisk.epub</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Asterisk™: The Future of Telephony</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jim Van Meggelen, Leif Madsen, Jared Smith</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">O’Reilly Media, Inc.</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:97a80269-3afb-40d3-8cc7-5b91a99a78c0</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:c9285412-0f91-47d2-b94d-c147165abed5</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/CleanPhysicsDemo.epub</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Interactive Physics Demo</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Wikipedia Contributors</dc:creator>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">us-en</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:c9285412-0f91-47d2-b94d-c147165abed5</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:cc866174-a098-4e94-a64b-ef2d17c6ead7</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/cyclones.epub</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Cyclones</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Wikipedia contributors</dc:creator>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:cc866174-a098-4e94-a64b-ef2d17c6ead7</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:0820c326-a62e-4d1a-b630-114b9a2e4d6f</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/EPUBBestPractices-1_0.epub</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">EPUB Best Practices</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Adobe Digital Editions Team</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/">Adobe Systems Incorporated</dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:0820c326-a62e-4d1a-b630-114b9a2e4d6f</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:f98c9d32-7c6a-4119-81b6-cb641c00062a</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/exupery_malenkiyi_princ.epub</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Malen'kij prints</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Antuan de Sent Exupery</dc:creator>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">ru</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:f98c9d32-7c6a-4119-81b6-cb641c00062a</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:66e1a8ec-7f3c-41d1-a1fb-9ce284f3d3b4</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/LinuxKernel.epub</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Linux Kernel in a Nutshell</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Greg Kroah-Hartman</dc:creator>
+      <dc:publisher xmlns:dc="http://purl.org/dc/elements/1.1/"></dc:publisher>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:66e1a8ec-7f3c-41d1-a1fb-9ce284f3d3b4</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:fd1d88af-85db-4b24-b7e6-085f5027fb09</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/ocf10-20060612.pdf</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">OEBPS Container Format 1.0</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Unified OEBPS Container Format Working Group</dc:creator>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:fd1d88af-85db-4b24-b7e6-085f5027fb09</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:1a6ef1a8-4e59-4698-a8e3-e8415d98a649</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/PDFReference16.pdf</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">PDF Reference, version 1.6</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Adobe Systems Incorporated</dc:creator>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/pdf</dc:format>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:1a6ef1a8-4e59-4698-a8e3-e8415d98a649</resource>
+    </licenseToken>
+  </resourceItemInfo>
+  <resourceItemInfo>
+    <resource>urn:uuid:2e270314-231c-47ac-b6ea-6623902e8e8a</resource>
+    <resourceItem>1</resourceItem>
+    <src>http://ugra.corp.adobe.com/books/2e270314-231c-47ac-b6ea-6623902e8e8a.epub</src>
+    <downloadType>simple</downloadType>
+    <metadata>
+      <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Cyclones</dc:title>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:creator>
+      <dc:format xmlns:dc="http://purl.org/dc/elements/1.1/">application/epub+zip</dc:format>
+      <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en-US</dc:language>
+      <dc:description  xmlns:dc="http://purl.org/dc/elements/1.1/">Book description: Cyclones</dc:description>
+      <thumbnailURL>http://ugra.corp.adobe.com/books/2e270314-231c-47ac-b6ea-6623902e8e8a.png</thumbnailURL>
+    </metadata>
+    <licenseToken>
+      <resource>urn:uuid:2e270314-231c-47ac-b6ea-6623902e8e8a</resource>
+    </licenseToken>
+  </resourceItemInfo>
+</resourceItemList>

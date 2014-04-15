@@ -1,0 +1,707 @@
+/*
+ADOBE SYSTEMS INCORPORATED
+ Copyright 2008 Adobe Systems Incorporated
+ All Rights Reserved.
+
+NOTICE:  Adobe permits you to use, modify, and distribute this file in accordance with the 
+terms of the Adobe license agreement accompanying it.  If you have received this file from a 
+source other than Adobe, then your use, modification, or distribution of it requires the prior 
+written permission of Adobe.
+*/
+
+@charset "UTF-8";
+
+html {
+	height: 100%;
+	width: 100%;
+}
+
+body { 
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	font-size: small;
+	font-style: normal;
+	line-height: normal;
+	font-variant: normal;
+	color: black; 
+	background: white; 
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+ul, li{
+	display:inline;
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li a:active, ul li a:link, ul li a:visited{
+	text-decoration: none;
+}
+
+.largetext{
+	font-size: 1.2em;
+}
+
+#container_div{
+	position: absolute;
+	overflow:auto;
+	z-index: 200px;
+	width: 100%;
+	margin:0 auto;
+	padding: 80px 0;
+}
+
+#header_div{
+	background-color: #FFF;
+	width: 100%;
+	color: #124378;
+	font-weight: bold;
+	font-size: 1.5em;
+	margin: 0;
+	padding: 10px 0 0 10px;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 300;
+	height: 45px;
+	border-bottom: 1px solid #333;
+}
+
+#header_div img{
+	margin: 0 20px 0 0;
+}
+
+.headerButtonsSection {
+	position: relative;
+	margin: 0 40px 0 0;
+	float: right;
+}
+
+#banner_div{
+	position: relative;
+	z-index: 100;
+	background-color: #f2f2f2;
+	width: 422px;
+	height: 328px;
+	/* height: 420px; */
+	color: #fff;
+	font-size: .9em;
+	margin: 0;
+	border: 1px solid #004990;
+	border-radius: 0px;
+	margin-left: 0px;
+	border-left: none;
+}
+
+#banner_div .banner_image{
+	width: 15%;
+	margin-left: 20px;
+}
+
+#banner_div .banner_text{
+	width: 60%;
+}
+
+#banner_div .banner_description{
+	color: #CCC;
+	font-size: 1.8em;
+	font-style: italic;
+    height: 25px;
+    padding: 12px;
+    text-align: center;
+}
+
+.banner_divider{
+	background-color: #004990;
+	width: 80%;
+	height: 1px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+#banner_div p{
+	color: #000;
+	font-size: 1em;
+	padding:  0 20px 0 0;
+}
+
+#banner_div p a{
+	color: #004990;
+	font-weight: bold;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#banner_div p.booktitle{
+	color: #004990;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin: 0 0 5px 0;
+}
+
+#banner_div p.banner_author{
+	color: #000;
+	font-size: 1.2em;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+#banner_div img{
+	float: left;
+}
+
+.bannerLink{
+	color: #004990;
+	width: 90px;
+	height: 20px;
+	border: 1px solid #004990;
+	margin: 20px 0 0 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.bannerLink a{
+	text-decoration: none;
+}
+	
+.book_div{
+	position: relative;
+	z-index: 10;
+	float: left;
+	width: 120px; /*img is 100 by 150, adding 20 for hover */
+	height: 170px; /*img is 100 by 150, adding 20 for hover */
+	margin: 0 0 10px 20px;
+	text-align:center;
+}
+
+.book_div img{
+	margin: 0 auto; 
+}
+
+.book_detail{
+	background-color: #F2F2F2;
+    height: 435px;
+	padding: 20px;
+}
+
+.book_detail div{
+	width: 49%;
+	background-color: #F2F2F2;
+}
+
+
+.book_detail .content{
+	background-color: #F2F2F2;
+	height: 400px;
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+	margin: 10px 0 0 0;
+}
+
+.book_detail .content p{
+	width: 100%;
+}
+
+.book_detail .bookTitle {
+	color: #004990;
+	font-size: 1.3 em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0px;
+	font-weight: bold;
+}
+
+.book_detail .bookTag{
+	font-size: .8em;
+}
+
+.banner_detail .divider{
+	background-color: #FFF;
+	width: 100%;
+	height: 1px;
+	margin: 20px 0;
+}
+
+.book_detail .bookAuthor{
+	color: #000;
+	font-size: 1em;
+	margin-top: 0px;	
+}
+
+.book_detail .BookDescription {
+	color: #000;
+	z-index: 20;
+	font-size: 1 em;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.book_detail .detailsLink{
+	color: #004990;
+	width: 120px;
+	height: 26px;
+	border: 1px solid #004990;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding-top: 5px;
+	font-weight: bold;
+	text-align: center;
+}
+
+a.readingListLink:active, a.readingListLink:link, a.readingListLink:visited{
+	color: #004990;
+	text-decoration: none;
+}
+
+#footer{
+	background-color:#eee;
+	position: fixed;
+	left:0;
+	bottom:0;
+	z-index: 300;
+	width: 100%;
+	height:	15px;
+	border-top: 2px solid #666;
+	text-align: center;
+	padding: 8px 0;
+}
+
+#footer a:active, #footer a:link, #footer a:visited{
+	color: #000;
+	text-decoration: none;
+	margin: 0 30px;
+}
+
+.bookID {
+	font-size: .8 em;
+}
+
+.bookFormat {
+	font-size: .8 em;
+}
+
+.itemLine {
+	background-color: #999;
+	height: 1px;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.caps{
+	text-transform: uppercase;	
+}
+
+.clear{
+	clear:both;
+}
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
+
+/*
+
+.defaultPermissionsSection {
+	padding-bottom: 1em;
+	width: 100%;
+}
+.defaultPermissionsTitle {
+	font-weight: bold;
+	font-size: large;
+}
+.copyPermissions {
+	position: relative;
+}
+
+.copyPermissionsHeader {
+	font-weight: bold;
+}
+
+.copyPermissionsValue {
+}
+
+.printPermissions {
+	position: relative;
+}
+
+.printPermissionsHeader {
+	font-weight: bold;
+}
+
+.printPermissionsValue {
+}
+
+.displayPermissions {
+	position: relative;
+}
+
+.displayPermissionsHeader {
+	font-weight: bold;
+}
+
+.displayPermissionsValue {
+}
+
+.newPermissionsSection {
+	padding-bottom: 1em;
+}
+
+.newPermissionsSectionHeader {
+	font-weight: bold;
+	font-size: large;
+}
+
+.newDisplayPermissionsTitle {
+	font-weight: bold;
+}
+
+.newDisplayPermissionsValue {
+	padding-left: 20px;
+}
+
+
+.bookOrderSection {
+	padding-bottom: 2em;
+}
+
+.passhashSection {
+	font-size: small;
+	position: relative;
+	padding-bottom: 2em;
+}
+
+.passhashCheckboxLabel {
+	position: absolute;
+	top: 0px;
+}
+
+
+.bookDetailsSection {
+	font-size: small;
+}
+
+.bookFormat {
+	font-size: small;
+	position: relative;
+}
+
+.bookFormatHeader {
+	font-weight: bold;
+}
+
+.bookFormatValue {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.bookPublisher {
+	font-family: Arial, Helvetica, sans-serif;
+	position: relative;
+}
+
+.bookPublisherHeader {
+	font-weight: bold;
+}
+
+.bookPublisherValue {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.bookIDSection {
+	position: relative;
+}
+
+.bookIDHeader {
+	font-weight: bold;
+}
+
+.bookIDValue {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.bookRow {
+	border-bottom-width: thick;
+}
+
+.Filters {
+	position: relative;
+	font-size: xx-large;
+	font-weight: bold;
+	border: thin groove #0000CC;
+	width: 540px;
+}
+
+.titleFilter {
+	position: relative;
+	font-size: medium;
+	font-weight: normal;
+	padding-bottom: .5em;
+}
+
+.titleFilterHeader {
+	font-weight: bold;
+}
+
+.titleFilterValue {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.authorFilter {
+	position: relative;
+	font-size: medium;
+	font-weight: normal;
+	padding-bottom: .5em;
+}
+
+.authorFilterHeader {
+	font-weight: bold;
+}
+
+.authorFilterValue {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.descriptionFilter {
+	position: relative;
+	font-size: medium;
+	font-weight: normal;
+	padding-bottom: .5em;
+}
+
+.descriptionFilterHeader {
+	font-weight: bold;
+}
+
+.descriptionFilterValue {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.idFilter {
+	position: relative;
+	font-size: medium;
+	font-weight: normal;
+	padding-bottom: .5em;
+}
+
+.idFilterHeader {
+	font-weight: bold;
+}
+
+.idFilterValue {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.permissionsFilter {
+	position: relative;
+	font-size: medium;
+	font-weight: normal;
+	padding-bottom: .5em;
+}
+
+.permissionsFilterHeader {
+	font-weight: bold;
+}
+
+.permissionsFilterValue {
+	position: absolute;
+	top: 0px;
+	left: 100px;
+}
+
+.filterSubmit {
+	position: absolute;
+	font-size: medium;
+	font-weight: normal;
+	top: auto;
+	left: 450px;
+}
+
+.catalogHeader {
+}
+
+.adobeHeader {
+}
+
+.headerLine {
+}
+
+.itemLine {
+}
+
+.up {
+	position: absolute;
+	left: 575px;
+}
+
+.adobeImage {
+	position: relative;
+	left: 17px;
+	top: 0px;
+}
+
+.headerTitle {
+	font-size: x-large;
+	font-weight: bold;
+	position: relative;
+	top: 10px;
+	left: 40px;
+}
+
+.headerButtonsSection {
+	position: relative;
+}
+
+.simpleSearch {
+	position: absolute;
+	top: 15px;
+	left: 40px;
+}
+
+.loginButtonHeader {
+	position: absolute;
+	top: 15px;
+	left: 320px;
+}
+
+.loggedInfoHeader {
+	white-space:nowrap;
+	position: absolute;
+	top: 18px;
+	left: 420px;
+}
+
+.downloadSection {
+	position: relative;
+	left: 127px;
+	font-size: large;
+	font-weight: medium;
+}
+
+.orderHeader {
+	font-size: large;
+	font-weight: medium;
+
+}
+
+.loginSection {
+	position: relative;
+	padding-bottom: 10em;
+}
+
+.loginSectionHeader {
+	font-weight: bold;
+	font-size: large;
+}
+
+.loginIdSection {
+	position: absolute;
+	top: 1em;
+}
+
+.loginIdHeader {
+	position: absolute;
+	top: 30px;
+	left: 80px;
+	font-weight: normal;
+}
+
+.loginIdEditor {
+	position: absolute;
+	top: 30px;
+	left: 180px;
+	font-weight: normal;
+}
+
+.loginNameSection {
+	position: absolute;
+	top: 3em;
+}
+
+.loginNameHeader {
+	position: absolute;
+	top: 30px;
+	left: 80px;
+	font-weight: normal;
+}
+
+.loginNameEditor {
+	position: absolute;
+	top: 30px;
+	left: 180px;
+	font-weight: normal;
+}
+
+.loginPassSection {
+	position: absolute;
+	top: 5em;
+}
+
+.loginPassHeader {
+	position: absolute;
+	top: 30px;
+	left: 80px;
+	font-weight: normal;
+}
+
+.loginPassEditor {
+	position: absolute;
+	top: 30px;
+	left: 180px;
+	font-weight: normal;
+}
+
+
+.loginButtonsSection {
+	position: absolute;
+	top: 7em;
+}
+
+.loginResetButton {
+	position: absolute;
+	top: 30px;
+	left: 180px;
+	font-weight: normal;
+}
+
+.loginButton {
+	position: absolute;
+	top: 30px;
+	left: 257px;
+	font-weight: normal;
+}
+
+.logoutButton {
+	position: absolute;
+	top: 30px;
+	left: 330px;
+	font-weight: normal;
+}
+
+.loginPassEditor {
+}
+
+*/

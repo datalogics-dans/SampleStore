@@ -1,0 +1,199 @@
+html {
+	margin: 0; 
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	margin:0px;
+	padding:0px;
+	color:#000000;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background-color: #fff;
+}
+
+@media screen and (max-width: 960px) {
+	/*ipad and other tablets */
+html {
+	margin: 0; 
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	margin:0px;
+	padding:0px;
+	color:#000000;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background-color: #fff;
+}
+}
+
+@media screen and (max-width: 758px) {
+		/* ipads */
+html {
+	margin: 0; 
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	margin:0px;
+	padding:0px;
+	color:#000000;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background-color: #fff;
+}
+}
+
+@media screen and (max-width: 524px) {
+html {
+	margin: 0; 
+	padding: 0;
+	width: 100%;
+	height: auto;
+}
+
+body {
+	width: 100%;
+	height: auto;
+	margin:0px;
+	padding:0px;
+	color:#000000;
+	font-family: Tahoma, Verdana, Arial, Helvetica, sans-serif;
+	background-color: #fff;
+}
+
+#header_div{
+	background-color: #FFF;
+	width: 100%;
+	color: #124378;
+	font-weight: bold;
+	font-size: .9em;
+	margin: 0;
+	padding: 10px 0 0 10px;
+	position: relative;
+	left: 0;
+	top: 0;
+	z-index: 300;
+	height: 80px;
+	border-bottom: 1px solid #333;
+}
+
+#header_div div.left{
+	background-color: #FFF;
+	width: 200px;
+}
+
+.headerButtonsSection {
+	position: relative;
+	margin: 0;
+	float: left;
+}
+
+#container_div{
+	position: absolute;
+	overflow-y: auto;
+	overflow-x: hidden;
+	z-index: 200px;
+	width: 100%;
+	margin:0 auto;
+	padding: 40px 0;
+}
+
+#banner_div{
+	position: relative;
+	z-index: 100;
+	background-color: #f2f2f2;
+	width: 80%;
+	height: 650px;
+	color: #fff;
+	font-size: .9em;
+	margin: 0 0 20px 0;
+	border: 1px solid #004990;
+	border-left: none;
+}
+
+#banner_div .banner_description{
+	color: #CCC;
+	font-size: 1em;
+	font-style: italic;
+    height: 25px;
+    padding: 20px;
+    text-align: center;
+}
+
+#banner_div .banner_image{
+	width: 80%;
+	margin: 0 0 0 40px;
+}
+
+#banner_div .banner_text{
+	clear: both;
+	width: 90%;
+	margin: 20px 0 0 0;
+}
+
+.book_detail{
+	background-color: #fff;
+    height: 435px;
+	padding: 20px;
+}
+
+.book_detail div{
+	background-color: #fff;
+	width: 90%;
+}
+
+
+.book_detail .content{
+	background-color: #fff;
+	height: 400px;
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.book_detail .content p{
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.book_detail .bookTitle {
+	color: #004990;
+	font-size: 1 em;
+	font-weight: bold;
+	margin: 0;
+	padding: 0px;
+	font-weight: bold;
+}
+
+#footer{
+	background-color:#eee;
+	position: fixed;
+	left:0;
+	bottom:0;
+	z-index: 300;
+	width: 100%;
+	height:	30px;
+	border-top: 2px solid #666;
+	text-align: center;
+	padding: 20px 0;
+}
+
+#footer a:active, #footer a:link, #footer a:visited{
+	color: #000;
+	text-decoration: none;
+	margin: 0 10px;
+}
+}
