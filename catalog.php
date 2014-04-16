@@ -214,7 +214,14 @@ global $botmBody, $divcounter, $catalogBody;
 			"&gblver=4";
 			
 	$bookDownloadURL = $linkArgs[0]."?".$bookDownloadURL."&auth=".hash_hmac("sha1", $bookDownloadURL, $linkArgs[5] ); 
-
+	
+	///////////////////////
+	// NOTE: This bit here requires some changes to be made to the deployed fulfillment webapp
+	///////////////////////
+	$newtitle = urlencode(str_replace("/","",$title));
+	$bookDownloadURL = str_replace("URLLink",$newtitle,$bookDownloadURL);
+	
+	
 	if ($botm == false){
 		$divcounter++;
 		$catalogBody .= "
